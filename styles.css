@@ -38,18 +38,28 @@
 ::-webkit-input-placeholder{
     text-align: center;
 }
-
+.btn-wrapper{
+    display: flex; /* created a flexbox for button */
+    justify-content: center;
+}
 .btn{
+    /*
     display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
+    */
     border: none;
     background: #dfe1e5;
     padding-top: 8px; 
     padding-bottom: 8px; 
     padding-left: 16px; 
     padding-right: 16px;
-    margin-left: auto;
-    margin-right: auto;
+
     margin-top: 30px;
+    margin-left: 4px;
+    margin-right: 4px;
+
     border-radius: 15px;
     font-size: 14px;
     /* we don't have to manually adjust the width becauase the button comes with a width by defualt*/
